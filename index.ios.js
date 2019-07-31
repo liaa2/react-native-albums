@@ -10,7 +10,8 @@ import AlbumList from './src/components/AlbumList';
 
 // Create a component
 const App = () => (
-    <View>
+    //it will expand the component to the entire content device - for ScrollView
+    <View style={{ flex: 1 }}>
       <Header headerText={'Albums'} />
       <AlbumList />
     </View>
